@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tab"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d192a6"
+    tools:context="com.shiddhant.files.ehouseholdservice.TabActivity">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="55dp"
+            >
+
+
+            <GridView
+                android:id="@+id/gridview_service"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:horizontalSpacing="10dp"
+                android:numColumns="2"
+                android:padding="5dp"
+                android:verticalSpacing="10dp">
+
+
+            </GridView>
+        </RelativeLayout>
+
+
+</RelativeLayout>
